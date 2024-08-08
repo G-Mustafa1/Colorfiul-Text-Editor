@@ -1,0 +1,60 @@
+body{
+   background: rgb(81,150,226);
+background: linear-gradient(90deg, rgba(81,150,226,1) 0%, rgba(234,113,240,1) 100%);
+}
+.btn-div{
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   /* box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0px 6px 6px rgba(0,0,0,0.23); */
+   margin-top: 40px;
+   /* background-color: bisque; */
+   padding: 20px 0px;
+   /* margin: 10px; */
+}
+.btn-div button{
+   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0px 6px 6px rgba(0,0,0,0.23);
+   border: none;
+   color: #fff;
+   margin-right: 10px;
+   padding: 12px 20px;
+   text-align: center;
+   font-size: 15px;
+   border-radius: 20px;
+   background-color: transparent;
+   /* background-color: #fff; */
+}
+#taxtarea{
+   /* background-color: #fff; */
+   font-size: 20px;
+   border: none;
+   color: #fff;
+   outline: none;
+   padding: 20px;
+   margin: 20px;
+   height: 60vh;
+   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+   /* box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0px 6px 6px rgba(0,0,0,0.23); */
+}
+#input{
+   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0px 6px 6px rgba(0,0,0,0.23);
+   border: none;
+   outline: none;
+   width: 50px;
+   padding: 10px;
+   font-size: 15px;
+   border-radius: 20px;
+   margin-right: 10px;
+   color: #fff;
+   background-color: transparent;
+}
+#font_Family{
+   background-color: transparent;
+   
+}
+#font_Family option{
+   background-color: #000;   
+}
+@media only screen and (max-width:400px){
+   .btn-div button{
+      margin: 5px 0px;
+   }
+}
