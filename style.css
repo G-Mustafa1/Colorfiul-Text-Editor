@@ -48,8 +48,11 @@ background: linear-gradient(90deg, rgba(81,150,226,1) 0%, rgba(234,113,240,1) 10
 }
 #font_Family{
    background-color: transparent;
-   
 }
+input[type="color"]{
+   background-color: transparent;
+}
+
 #font_Family option{
    background-color: #000;   
 }
